@@ -1,11 +1,22 @@
 /* 🟩Nav bar coding start from here 🟩 */
+
+*
+{
+    box-sizing: border-box;
+}
 nav {
   display: flex;
   justify-content: space-between;
+  padding-top: 40px;
 }
 
+.container
+{
+    max-width: 1280px;
+    margin: auto;
+}
 .Search-dad {
-    position: relative;
+  position: relative;
 }
 .Search-dad input {
   background-color: #f1f1f1;
@@ -16,9 +27,36 @@ nav {
 }
 
 .Search-dad i {
-    position: absolute;
-    top: 14px;
-    right: 14px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
 
+.nav-items
+{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.nav-items a
+{
+    text-decoration: none;
+    color: #707070;
+    font-size: 17.5px;
+    font-weight: bold;
+}
+
+
+/* Banner Section */
+.banner
+{
+    width: 1210px;
+    height: 455px;
+    background-color: #FEEAE9;
+    border: none;
+    border-radius: 10px;
+    margin-left: 111px;
+    margin-right: 117px;
 
 }
